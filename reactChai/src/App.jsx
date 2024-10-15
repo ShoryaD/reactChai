@@ -3,10 +3,13 @@ import Coffee from "./Coffee"
 
 function App() {
 
+  const injection = "Chai and Coffee is Ready for you"
+
   return (
     <>
-      <Chai />
-      <Coffee />
+      {/* <Chai /> */}
+      {/* <Coffee /> */}
+      <h1>{injection}</h1>
     </>
   )
 }
